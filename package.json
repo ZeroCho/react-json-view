@@ -232,7 +232,7 @@
     "index.d.ts"
   ],
   "scripts": {
-    "build": "NODE_ENV=production webpack --config webpack/webpack.config.js -p --display-error-details --progress --optimize-minimize",
+    "build": "NODE_ENV=production NODE_OPTIONS=--openssl-legacy-provider webpack --config webpack/webpack.config.js -p --display-error-details --progress --optimize-minimize",
     "build:demo": "NODE_ENV=production webpack --config webpack/webpack.config-demo.js -p --display-error-details --progress --optimize-minimize",
     "dev": "NODE_ENV=development webpack-dev-server --config webpack/webpack.config-dev.js --open",
     "lint": "NODE_ENV=test ./node_modules/.bin/eslint src",
