@@ -31,7 +31,7 @@ class ReactJsonView extends React.PureComponent {
     }
 
     //reference id for this instance
-    rjvId = Date.now().toString();
+    rjvId = Date.now().toString() + Math.floor(Math.random() * 1000);
 
     //all acceptable props and default values
     static defaultProps = {
