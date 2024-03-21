@@ -1,3 +1,3 @@
 import { createStore } from 'redux';
-const dispatcher = createStore({});
+const dispatcher = createStore((state) => state);
 export default dispatcher;
