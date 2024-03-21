@@ -2,7 +2,7 @@
   "name": "@microlink/react-json-view",
   "description": "Interactive react component for displaying javascript arrays and JSON objects.",
   "homepage": "https://github.com/microlinkhq/react-json-view",
-  "version": "1.23.2",
+  "version": "1.23.3",
   "main": "dist/main.js",
   "author": {
     "name": "Mac Gainor"
@@ -181,8 +181,7 @@
   "dependencies": {
     "react-base16-styling": "~0.6.0",
     "react-lifecycles-compat": "~3.0.4",
-    "react-textarea-autosize": "~8.3.2",
-    "redux": "~5.0.1"
+    "react-textarea-autosize": "~8.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.13.0",

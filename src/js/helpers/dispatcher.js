@@ -1,3 +1,10 @@
-import { createStore } from 'redux';
-const dispatcher = createStore((state) => state);
+const dispatcher = {
+    handleAction: null,
+    register(handleAction) {
+        this.handleAction = handleAction;
+    },
+    dispatch(action) {
+        this.handleAction(action);
+    }
+};
 export default dispatcher;
